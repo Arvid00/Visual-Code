@@ -1,0 +1,22 @@
+.first{
+    background-image: linear-gradient(to bottom, #FFF, #4c74f7);
+    width: 20em;
+    height: 18em;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.small{
+    font-size: 0.5em;
+}
+
+.normal{
+    font-size: 1em;
+}
+
+.large{
+    font-size: 1.5em;
+}
+
+.larger{
+    font-size: 2em;
+}

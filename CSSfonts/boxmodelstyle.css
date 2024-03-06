@@ -1,0 +1,22 @@
+.first{
+    margin: 40px;
+    background-color: chartreuse;
+    width: 10em;
+    height: 5em;
+    background-color: rgba(rgb(109, 16, 97));
+}
+
+.second{
+    margin: 20px;
+    padding: 20px;
+    background-color: blueviolet;
+    width: fit-content;
+}
+
+.third{
+    margin: 30px;
+    padding: 30px;
+    border: 7px solid #22AABB;
+    background-color: rgb(226, 37, 201);
+    width: 15em;
+}

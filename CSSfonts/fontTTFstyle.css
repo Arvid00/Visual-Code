@@ -1,0 +1,16 @@
+@font-face {
+    font-family:Oswald;
+    src: url(Oswald.zip);
+}
+
+.first{
+    background-image: linear-gradient(to bottom, #FFF, #83f589);
+    width: 20em;
+    height: 5em;
+}
+
+.second{
+    background-image: linear-gradient(to bottom, #FFF, #83f589);
+    width: 20em;
+    height: 5em;
+}

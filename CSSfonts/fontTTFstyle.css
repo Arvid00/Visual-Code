@@ -1,16 +1,23 @@
 @font-face {
-    font-family:Oswald;
-    src: url(Oswald.zip);
+    font-family:Robot;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mickey;
+    src: url(Mickeys\ Merry\ Christmas.ttf);
 }
 
 .first{
     background-image: linear-gradient(to bottom, #FFF, #83f589);
     width: 20em;
     height: 5em;
+    font-family: Robot;
 }
 
 .second{
     background-image: linear-gradient(to bottom, #FFF, #83f589);
     width: 20em;
     height: 5em;
+    font-family: Mickey;
 }

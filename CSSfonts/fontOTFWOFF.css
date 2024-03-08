@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Ma;
+    src: url(Mayestica.otf);
+}
+
+@font-face {
+    font-family: Ris;
+    src: url(ristretto.woff);
+}
+
+.first{
+    background-image: linear-gradient(to bottom, #FFF, #83f589);
+    width: 20em;
+    height: 5em;
+    font-family: Ma;
+}
+
+.second{
+    background-image: linear-gradient(to bottom, #FFF, #83f589);
+    width: 20em;
+    height: 5em;
+    font-family: Ris;
+}

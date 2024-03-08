@@ -1,0 +1,16 @@
+body{
+    background-color: lightgreen;
+}
+
+a{
+    display: block;
+    background-color: gray;
+    color: blue;
+    border-left: color(green);
+    text-align: center;
+    padding-top: 2em;
+}
+
+a:hover{
+    background-color: darkgray;
+}

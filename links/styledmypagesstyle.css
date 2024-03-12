@@ -1,3 +1,20 @@
 body{
     background-color: lightgreen;
 }
+
+div{
+    background-color: orange;
+    float: left;
+    margin: 3em;
+    width: 8em;
+    height: 25em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+a{
+    padding: 0.5em;
+    margin: 1em;
+    margin-bottom: 2em;
+
+}

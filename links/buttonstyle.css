@@ -5,12 +5,30 @@ body{
 a{
     display: block;
     background-color: gray;
+    width: 8em;
     color: blue;
-    border-left: color(green);
     text-align: center;
     padding-top: 2em;
+    border-radius: 10px;
+    margin: 1em;
 }
 
 a:hover{
     background-color: darkgray;
+}
+
+a.green{
+    border-left: ridge 15px green;
+}
+
+a.red{
+    border-left: ridge 15px red;
+}
+
+a.yellow{
+    border-left: ridge 15px yellow;
+}
+
+a.blue{
+    border-left: ridge 15px blue;
 }

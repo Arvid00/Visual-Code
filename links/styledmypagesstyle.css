@@ -6,15 +6,20 @@ div{
     background-color: orange;
     float: left;
     margin: 3em;
-    width: 8em;
+    width: 7em;
     height: 25em;
     text-align: center;
     margin-top: 2em;
 }
 
 a{
-    padding: 0.5em;
-    margin: 1em;
-    margin-bottom: 2em;
+    border-radius: 5px 10px 10px 5px;
+    border: solid 2px black;
+    float: initial;
+    float: inline-start;
+}
 
+a.hover{
+    color: darkgreen;
+    background-color: cadetblue;
 }

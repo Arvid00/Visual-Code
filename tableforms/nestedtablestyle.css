@@ -1,31 +1,26 @@
 table{
     border: solid blue;
-    width: 525px;
-    height: 300px;
     background-color: #99ff66;
-    box-shadow: 2px 2px 2px 2px black;
     border-spacing: 0px;
     margin-top: 10em;
     float: left;
+}
+
+.wid{
+    width: 20em;
 }
 
 td{
     border: solid green;
     text-align: center;
     border-width: 1px;
+    border-spacing: 0px;
+    padding-bottom: 2em;
+    width: 4em;
+    height: 2em;
 }
-
-.big{
-    width: 300px;
-    height: 60px;
-}
-
-.mellan{
-    width: 225px;
-    height: 60px;
-}
-
-.liten{
-    width: 150px;
-    height: 60px;
+.shadow{
+    box-shadow: 2px 2px 2px 2px black;
+    width: 80em;
+    margin: 4em;
 }

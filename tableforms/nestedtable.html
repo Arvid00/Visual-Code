@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="nestedtablestyle.css">
 </head>
 <body>
-    <table>
+    <table class="shadow">
         <thead>
             <tr>
                 <td>
@@ -24,7 +24,7 @@
         <tbody>
             <tr>
              <td>
-                 <table>
+                 <table class="wid">
                      <thead>
                          <tr>
                              <td class="liten">
@@ -38,30 +38,30 @@
                              </td>
                          </tr>
                      </thead>
-                <tbody>
-                <tr>
-                    <td class="liten">
-                        1
-                    </td>
-                    <td class="liten">
-                        Apple
-                    </td>
-                    <td class="mellan">
-                        5
-                    </td>
-                </tr>
-                <tr>
-                    <td class="liten">
-                        2
-                    </td>
-                    <td class="liten">
-                        Mango
-                    </td>
-                    <td class="mellan">
-                        3
-                    </td>
-                </tr>
-                <tr>
+                     <tbody>
+                         <tr>
+                             <td class="liten">
+                                  1
+                             </td>
+                             <td class="liten">
+                                 Apple
+                             </td>
+                             <td class="mellan">
+                                 5
+                             </td>
+                         </tr>
+                         <tr>
+                             <td class="liten">
+                                 2
+                             </td>
+                             <td class="liten">
+                                 Mango
+                             </td>
+                             <td class="mellan">
+                                 3
+                             </td>
+                         </tr>
+                         <tr>
                     <td class="liten">
                         3
                     </td>
@@ -73,10 +73,6 @@
                     </td>
                 </tr>
                 </tbody>
-                </table>
-            </td>
-            </tr>
-            </tbody>
             <tfoot>
                 <tr>
                     <td colspan="2">
@@ -88,8 +84,9 @@
                 </tr>
             </tfoot>
             </table>
-        </tr>
-       <table>
+            </td>
+            <td>
+            <table class="wid">
         <thead>
             <tr>
                 <td class="liten">
@@ -149,7 +146,9 @@
         </tr>
         </tfoot>
         </table>
-        <table>
+        </td>
+        <td>
+        <table class="wid">
         <thead>
             <tr>
                 <td class="liten">
@@ -209,7 +208,19 @@
         </tr>
         </tfoot>
         </table>
+        </td>
+        </tr>
         </tbody>
-    </table>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    Total
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+        </tfoot>
+        </table>
 </body>
 </html>

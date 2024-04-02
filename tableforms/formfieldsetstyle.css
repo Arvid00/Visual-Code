@@ -16,3 +16,7 @@ p{
 fieldset{
     width: 23em;
 }
+
+legend{
+    background-color: beige;
+}

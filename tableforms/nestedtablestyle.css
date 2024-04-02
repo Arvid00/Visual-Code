@@ -10,6 +10,10 @@ table{
     width: 20em;
 }
 
+tr{
+    text-align: center;
+}
+
 td{
     border: solid green;
     text-align: center;

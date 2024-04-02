@@ -1,0 +1,29 @@
+.roman{
+    list-style-type: upper-roman;
+}
+
+ol{
+    border: solid blue 2px;
+    width: 30em;
+}
+
+dl{
+    background-color: white;
+    color: purple;
+    border: solid blue 2px;
+    width: 30em;
+}
+
+body{
+    background-color: #99ff66;
+}
+
+.none{
+    list-style-type: none;
+}
+
+ul{
+    border: solid blue 2px;
+    list-style-type: square;
+    width: 30em;
+}

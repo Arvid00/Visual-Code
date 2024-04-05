@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function factorial(x){
+        if(Number.isNaN(x)==true) throw new Error("x must be a number");
+        if(x<0) throw new Error ("x must not be negative");
+        var f=1;
+        for(;x > f; f*=x, x--)/*empty*/; 
+        return f;
+        }
+
+        function inmatningFakultet(){
+            try{
+                //Begära att användare mata in ett heltal
+                var n = Number(prompt("Please enter a positive integer",""));
+                var f = factorial(n);
+                alert(n + "!="+ f);
+                document.write(<h1 style="background-color: #a1a101; text-align: center; line-height: 75px; font-size: 30px;"> Resultat: "n + "!="+ f+<h1>");
+            }
+            catch(ex){alert(ex);}
+        }
+    </script>
+</head>
+<body onload="inmatningFakultet()">
+</body>
+</html>

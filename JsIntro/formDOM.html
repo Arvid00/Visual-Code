@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function form(form1)
+        {
+        for(var i=0;i<form1.radioGrupp.length;i++)
+        {
+            if(form1.radioGrupp[i].checked)
+            {
+                document.getElementById("b").style.backgroundColor=form1.radioGrupp[i].value;
+                break;
+            }
+        }
+        }
+    </script>
+</head>
+<body id="b">
+    <form name="form">
+    <h1>Select backgroundcolor</h1>
+    <br>
+    <label for="Grön">Grön</label>
+    <input type="radio" id="green" value="green" name="radioGrupp"><br>
+    <label for="Rödgrön">Rödgrön</label>
+    <input type="radio" id="redgreen" value="redgreen" name="radioGrupp"> <br>
+    <label for="Akvamarin">Akvamarin</label>
+    <input type="radio" id="akvamarina" value="aquamarine" name="radioGrupp"> <br>
+    <label for="Blå">Blå</label>
+    <input type="radio" id="blue" value="Blue" name="radioGrupp"> <br>
+    <label for="Rödblå">Rödblå</label>
+    <input type="radio" id="redblue" value="redblue" name="radioGrupp"> <br>
+    <button type="button" value="changecolor" onclick="changecolor(this.form)">Select color</button>
+    <button type="button" onclick="reset(this.form)">Reset color</button>
+    </form>
+</body>
+</html>

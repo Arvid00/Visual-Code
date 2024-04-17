@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button
+        {
+            background-color: aqua;
+            margin: 2em;
+            width: 6em;
+            height: 2em;
+        }
+
+        input
+        {
+            margin: 3em;
+        }
+    </style>
+    <script>
+        var tal1;
+        var tal2
+        function Plus()
+        {
+            tal1 = parseInt(document.getElementById("Tal1").value);
+            tal2 = parseInt(document.getElementById("Tal2").value);
+            alert(tal1 + tal2);
+        }
+        function Minus()
+        {
+            tal1 = parseInt(document.getElementById("Tal1").value);
+            tal2 = parseInt(document.getElementById("Tal2").value);
+            alert(tal1 - tal2);
+        }
+        function Multi()
+        {
+            tal1 = parseInt(document.getElementById("Tal1").value);
+            tal2 = parseInt(document.getElementById("Tal2").value);
+            alert(tal1 * tal2);
+        }
+        function Div()
+        {
+            tal1 = parseInt(document.getElementById("Tal1").value);
+            tal2 = parseInt(document.getElementById("Tal2").value);
+            alert(tal1/tal2);
+        }
+    </script>
+</head>
+<body>
+    <p>
+    <label for="Tal1">Tal:1</label>
+    <input type="text" name="Tal1" id="Tal1" required>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+        <label for="Tal2">Tal:2</label>
+        <input type="text" name="Tal2" id="Tal2" required>
+    </p>
+    <button type="button" onclick="Plus()">+</button> <button type="button" onclick="Minus()">-</button> <button type="button" onclick="Multi()">*</button> <button type="button" onclick="Div()">/</button>
+</body>
+</html>

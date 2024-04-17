@@ -1,0 +1,48 @@
+body{
+    background-color: lightgreen;
+    border-collapse: collapse;
+}
+
+table{
+    border: solid blue;
+    border-spacing: 0px;
+}
+
+td
+{
+    border: solid green;
+    border-width: 1px;
+    text-align: center;
+}
+
+thead
+{
+    color: red;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+    margin-right: 8em;
+    margin-top: 7em;
+}
+
+form
+{
+    color: blue;
+}
+
+.black
+{
+    color: black;
+}
+
+button
+{
+    margin-left: 9em;
+}

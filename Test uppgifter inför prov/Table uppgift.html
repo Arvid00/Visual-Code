@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Table uppgift.css">
+</head>
+<body>
+    <div class="left">
+        <h1>Formula 1</h1>
+    <table>
+        <caption> <i>2023 driver standing </i></caption>
+        <thead>
+            <tr>
+                <td>
+                    Pos
+                </td>
+                <td>
+                    Driver
+                </td>
+                <td>
+                    Nationality
+                </td>
+                <td>
+                    Car
+                </td>
+                <td>
+                    PTS
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    Verstappen
+                </td>
+                <td>
+                    NED
+                </td>
+                <td>
+                    Red Bull
+                </td>
+                <td>
+                    549
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Perez
+                </td>
+                <td>
+                    MEX
+                </td>
+                <td>
+                    Red Bull
+                </td>
+                <td>
+                    273
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    Hamilton
+                </td>
+                <td>
+                    GBR
+                </td>
+                <td>
+                    Mercedes
+                </td>
+                <td>
+                    232
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    Sainz
+                </td>
+                <td>
+                    ESP
+                </td>
+                <td>
+                    Ferrari
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    5
+                </td>
+                <td>
+                    Alonso
+                </td>
+                <td>
+                    ESP
+                </td>
+                <td>
+                    Aston Martin
+                </td>
+                <td>
+                    200
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    6
+                </td>
+                <td>
+                    Norris
+                </td>
+                <td>
+                    GBR
+                </td>
+                <td>
+                    McLaren
+                </td>
+                <td>
+                    195
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    Total 6 Drivers
+                </td>
+                <td>
+                    Total:1649
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    <div class="right">
+    <form>
+        <fieldset>
+            <legend>Name of Driver</legend>
+            <p>
+                <label for="First">First Name*</label>
+                <input type="text" name="First Name" required>
+            </p>
+            <p>
+                <label for="Last">Last Name*</label>
+                <input type="text" name="Last Name" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Car*</legend>
+            <p>
+                <label for="Red">Red Bull</label>
+                <input type="radio" name="Car" required>
+            </p>
+            <p>
+                <label for="Mercedes">Mercedes</label>
+                <input type="radio" name="Car" required>
+            </p>
+            <p>
+                <label for="Ferrari">Ferrari</label>
+                <input type="radio" name="Car" required>
+            </p>
+            <p>
+                <label for="Aston">Aston Martin</label>
+                <input type="radio" name="Car" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Nationality</legend>
+            <p>
+                <label class="black" for="choose">Choose a nationality</label>
+                <select name="choose">
+                    <option value="NED">NED</option>
+                    <option value="MEX">MEX</option>
+                    <option value="GBR">GBR</option>
+                    <option value="ESP">ESP</option>
+                </select>
+            </p>
+        </fieldset>
+        <button type="submit">Send</button>
+    </form>
+    </div>
+</body>
+</html>

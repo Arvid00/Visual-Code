@@ -15,14 +15,28 @@
     </style>
     <script>
         var MyWindow;
-        MyWindow = window.open(snowleopard.jpg,
+        function newPopup()
+        {
+            MyWindow = window.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6UBC9w256o_AR3fmn_elqi4jVNuqS-MdCOw&s", "", "width = 300, height = 300"); 
+            MyWindow.focus();
+        }
+
+        function closePopup()
+        {
+            MyWindow.close();
+        }
+        function infoText()
+        {
+            document.getElementById("hidden").innerHTML = "outerWidth: " + window.outerWidth + "<br>" + "outerHeight: " + window.outerHeight;   
+        }
     </script>
 </head>
 <body>
-    <button type="button" value="open">Öppna upp fönster</button>
+    <button type="button" onclick="newPopup()">Öppna upp fönster</button>
     <br>
-    <button type="button" value="close">Stäng fönster</button>
+    <button type="button" onclick="closePopup()">Stäng fönster</button>
     <br>
-    <button type="button" value="information">Info om fönster</button>
+    <button type="button" onclick="infoText()">Info om fönster</button>
+    <div id="hidden"></div>
 </body>
 </html>

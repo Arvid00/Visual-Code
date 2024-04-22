@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>Body{font:16px vold Courier,monospace;}</style>
+    <script>
+        Array.name=city;
+        function write(element, index)
+        {
+            document.getElementById("Utskriv").innerHTML = ('cities[' + index + '] = ' + element+"<br/>");
+        }
+
+        function pop()
+        {
+            if(city.length == 0)
+            {
+                alert("Array is empty, please enter a city");
+            }
+            else
+            {
+                city.pop;
+            }
+        }
+
+        function push()
+        {
+            city.push(document.getElementById("Utskriv").innerHTML);
+
+        }
+
+        function splice()
+        {
+            if(city.length < 2)
+            {
+                alert("Please enter atleast three cities before splice");
+            }
+            cities.forEach(arrayElements);
+            var removed = cities.splice(2, 0, 'Stockholm');
+        }
+        </script>
+</head>
+<body>
+    <label for="Stad">Stad: </label>
+    <input type="text" name="Stad" id="textbox" required>
+    <p>
+    Push,pop,write,splice - array
+    </p>
+    <button type="button" onclick="write()" id="write">Skriv ut array</button>
+    <button type="button" onclick="pop()" id="pop">Pop</button>
+    <button type="button" onclick="push()" id="push">Push</button>
+    <button type="button" onclick="splice()" id="splice">Splice</button>
+    <br>
+    <input type="text" name="utskrivning" id="Utskriv" placeholder="Resultat" readonly>
+</body>
+</html>

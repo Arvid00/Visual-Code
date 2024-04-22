@@ -35,6 +35,7 @@ thead
 form
 {
     color: blue;
+    float: left;
 }
 
 .black

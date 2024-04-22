@@ -1,0 +1,68 @@
+body
+{
+    background-color: lightblue;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.Orange
+{
+    color: orange;
+}
+
+.blackborder
+{
+    border: solid black;
+}
+
+legend
+{
+    background-color: beige;
+}
+
+table
+{
+    border: solid green;
+    border-spacing: 0px;
+}
+
+td
+{
+    text-align: center;
+    border: solid lightgreen;
+    border-width: 1px;
+}
+
+thead
+{
+    color: red;
+}
+
+.purpletext
+{
+    color: purple;
+}
+
+form
+{
+    margin-right: 8em;
+}
+
+button
+{
+    margin-left: 13em;
+    width: 5em;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}

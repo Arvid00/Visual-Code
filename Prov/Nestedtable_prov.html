@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Nestedtable_prov.css">
+</head>
+<body>
+    <h1>Nästlad tabell</h1>
+    <br>
+    <div class="left">
+    <table class="blackborder">
+        <caption><i>Fruits/month</i></caption>
+        <thead class="purpletext">
+            <tr>
+                <td>
+                    January
+                </td>
+                <td>
+                    Febuary
+                </td>
+                <td>
+                    March
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+             <td>
+                 <table>
+                     <thead>
+                         <tr>
+                             <td>
+                                  S.N
+                             </td>
+                             <td>
+                                 Item
+                             </td>
+                             <td>
+                                 Quantity
+                             </td>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <td>
+                                  1
+                             </td>
+                             <td>
+                                 Apple
+                             </td>
+                             <td>
+                                 5
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>
+                                 2
+                             </td>
+                             <td>
+                                 Mango
+                             </td>
+                             <td>
+                                 3
+                             </td>
+                         </tr>
+                         <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Orange
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+                </tbody>
+            <tfoot class="blue">
+                <tr>
+                    <td colspan="2">
+                        Total
+                    </td>
+                    <td>
+                        10
+                    </td>
+                </tr>
+            </tfoot>
+            </table>
+            </td>
+            <td>
+            <table>
+        <thead>
+            <tr>
+                <td>
+                    S.N
+                </td>
+                <td>
+                    Item
+                </td>
+                <td>
+                    Quantity
+                </td>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                Apple
+            </td>
+            <td>
+                2
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Mango
+            </td>
+            <td>
+                2
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Orange
+            </td>
+            <td>
+                1
+            </td>
+        </tr>
+       </tbody>
+       <tfoot class="blue">
+        <tr>
+            <td colspan="2">
+                Total
+            </td>
+            <td>
+                5
+            </td>
+        </tr>
+        </tfoot>
+        </table>
+        </td>
+        <td>
+        <table>
+        <thead>
+            <tr>
+                <td>
+                    S.N
+                </td>
+                <td>
+                    Item
+                </td>
+                <td>
+                    Quantity
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+                Apple
+            </td>
+            <td>
+                3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Mango
+            </td>
+            <td>
+                6
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Orange
+            </td>
+            <td>
+                1
+            </td>
+        </tr>
+        </tbody>
+        <tfoot class="blue">
+        <tr>
+            <td colspan="2">
+                Total
+            </td>
+            <td>
+                10
+            </td>
+        </tr>
+        </tfoot>
+        </table>
+        </td>
+        </tr>
+        </tbody>
+        <tfoot class="Orange">
+            <tr>
+                <td colspan="2">
+                    Total
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+        </tfoot>
+        </table>
+        </div>
+        <div class="right">
+        <form>
+            <fieldset>
+                <legend>Login</legend>
+                <p>
+                    <label for="Username">Username*</label>
+                    <input type="text" name="Username" required>
+                </p>
+                <p>
+                    <label for="Password">Password*</label>
+                    <input type="text" name="Password" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Gender*</legend>
+                <p>
+                    <label for="Gender">Male</label>
+                    <input type="radio" name="Gender" required>
+                </p>
+                <p>
+                    <label for="Gender">Female</label>
+                    <input type="radio" name="Gender" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Programming skill</legend>
+                <p>
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="Java">
+                </p>
+                <p>
+                    <label for="C++">C++</label>
+                    <input type="checkbox" name="C++" >
+                </p>
+                <p>
+                    <label for="C#">C#</label>
+                    <input type="checkbox" name="C#">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Fruit</legend>
+                <p>
+                    <label for="choose">Choose a fruit:</label>
+                    <select name="Fruit">
+                        <option>Banan</option>
+                        <option>Melon</option>
+                        <option>Kiwi</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Comment</legend>
+                <textarea rows="4" cols="30">Enter your comment here</textarea>
+            </fieldset>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -5,13 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .border
+        div
         {
-            box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+            display: flex; 
+            flex-wrap: nowrap;
+            margin: 2em;
+        }
+
+        img
+        {
+            box-shadow: 3px 3px 8px 0px black;
+            margin: 1em;
+        }
+
+        .second
+        {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .third
+        {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .fourth
+        {
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    
+    <div class="first">
+        <img class="foto1" src="foto1.jpg" alt="Sample Photo">
+        <img class="foto2" src="foto2.jpg" alt="Sample Photo">
+        <img class="foto3" src="foto3.jpg" alt="Sample Photo">
+    </div>
+    <div class="second">
+        <img class="foto1" src="foto1.jpg" alt="Sample Photo">
+        <img class="foto2" src="foto2.jpg" alt="Sample Photo">
+        <img class="foto3" src="foto3.jpg" alt="Sample Photo">
+    </div>
+    <div class="third">
+        <img class="foto1" src="foto1.jpg" alt="Sample Photo">
+        <img class="foto2" src="foto2.jpg" alt="Sample Photo">
+        <img class="foto3" src="foto3.jpg" alt="Sample Photo">
+    </div>
+    <div class="fourth">
+        <img class="foto1" src="foto1.jpg" alt="Sample Photo">
+        <img class="foto2" src="foto2.jpg" alt="Sample Photo">
+        <img class="foto3" src="foto3.jpg" alt="Sample Photo">
+    </div>
 </body>
 </html>

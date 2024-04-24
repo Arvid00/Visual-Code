@@ -8,34 +8,44 @@
     <style>
         div div
         {
-            display: flex;
             background-color: yellow;
-            align-content: space-between;
+            border: 2px solid black;
+            text-align: center;
+            color: white;
+        }
+
+        .container
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 30em;
+            border: 2px solid black;
+            border-radius: 3px;
         }
 
         .odd
         {
-            width: 30px
+            flex: 1 10%;
         }
 
         .even_second
         {
-            width: 120px;
+            flex:1 40%;
         }
 
         .even
         {
-            width: 60px;
+            flex:1 20%;
         }
 
         .odd_fifth
         {
-            width: 120px;
+            flex:1 40%;
         }
 
         .even_eighth
         {
-            width: 120px;
+            flex:1 40%;
         }
     </style>
 </head>
@@ -52,8 +62,5 @@
         <div class="odd">9</div>
         <div class="even">10</div>
     </div>
-
-
 </body>
-
 </html>

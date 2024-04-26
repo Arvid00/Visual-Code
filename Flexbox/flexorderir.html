@@ -9,36 +9,59 @@
         {
             background-color: darkred;
             text-align: center;
+            margin: 0em;
+            padding: 2em;
         }
 
         .head
         {
+
             display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            flex-flow: row;
         }
 
         .article
         {
-            text-align: center;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            order: 2;
             background-color: cyan;
         }
 
-        .news
+        div > h2
         {
-            text-align: center;
+            display: flex;
+            order: 0;
+            justify-content: center;
+        }
+        #news
+        {
+            display: flex;
+            flex-basis: 100px;
+            padding: 1em;
+            order: 1;
+            align-items: center;
             background-color: palevioletred;
+            display: inline-flex;
+
         }
 
-        .contact
+        #contact
         {
-            text-align: center;
+            display: flex;
+            padding: 1em;
+            order: 3;
+            align-items: flex-end;
             background-color: palevioletred;
+            display: inline-flex;
         }
 
         .footer
         {
+            margin: 0em;
             background-color: purple;
+            text-align: right;
         }
     </style>
 </head>

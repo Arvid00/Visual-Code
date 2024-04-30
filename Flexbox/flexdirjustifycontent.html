@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .second
+        {
+            font-family: 'Courier New', Courier, monospace;
+            background: no-repeat url("croissants.jpg");
+            display: flex;
+            justify-content: flex-end;
+            background-size: 100vw;
+        }
+    @media screen and (min-width: 550px) 
+    {
+        .first ul
+        {
+            flex-direction: row;
+            justify-content: space-around;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            color: white;
+        }
+
+        .first
+        {
+            display: flex;
+            flex-basis: 100vw;
+            background-color: brown;
+            max-height: fit-content;
+            flex-wrap: wrap;
+            height: 6em;
+            justify-content: space-between;
+        }
+
+        .first li
+        {
+            display: block;
+            border: 2px solid black;
+            margin: 1em;
+            padding: 0.5em;
+            padding-left: 1em;
+            padding-right: 1em;
+            border-radius: 0.5em;
+        }
+    }
+
+    ul
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="first">
+            <ul>
+                <li>
+                    Menu
+                </li>
+                <li>
+                    News
+                </li>
+                <li>
+                    About
+                </li>
+                <li>
+                    Contact
+                </li>
+            </ul>
+        </div>
+        <div class="second">
+            <img src="" alt=""> 
+        </div>
+    </div>
+</body>
+</html>

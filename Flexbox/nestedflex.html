@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            text-align: center;
+        }
+        .wrapper
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .second
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .second > div
+        {
+            flex: 1;
+        }
+
+        .wrapper > div
+        {
+            background-color: blue;
+            flex: 1;
+            border: 2px solid blue;
+            margin: 1em;
+            padding: 0.2em;
+            color: white;
+        }
+
+        #green
+        {
+            background-color: greenyellow;
+        }
+
+        #red
+        {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+     <div class="second">1
+         <div id="green">1a</div>
+         <div id="red">1b</div>
+     </div>
+     <div>2</div>
+     <div>3</div>
+    </div>
+    <div class="wrapper">
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+    <div class="wrapper">
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+        
+</body>
+</html>

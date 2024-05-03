@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @media screen and (min-width: 1px) and (max-width: 400px) 
+    {
+        body
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header
+        {
+          padding: 0.8em;
+          display: flex;
+          background-color: palevioletred;
+          order: 0;
+          justify-content: center;
+        }
+
+        .main
+        {
+            padding: 0.8em;
+            display: flex;
+            background-color: aqua;
+            order: 1;
+        }
+
+       .aside
+        {
+          flex-flow: column;
+        }
+
+       .aside-1
+        {
+          padding: 0.8em;
+          background-color: yellow;
+          order: 2;
+          align-items: center;
+          display: flex;
+        }
+
+       .aside-2
+        {
+          padding: 0.8em;
+          background-color: pink;
+          order: 3;
+          align-items: center;
+          display: flex;
+        }
+
+       .footer
+        {
+          padding: 0.8em;
+          flex-flow: column;
+          display: flex;
+          background-color: lightgreen;
+          order: 4;
+          align-items: center;
+        }
+    }
+
+    @media screen and (min-width: 400px) and (max-width: 800px)
+    {
+        .header
+        {
+          padding: 0.8em;
+          display: flex;
+          background-color: palevioletred;
+          order: 0;
+          justify-content: center;
+          flex-basis: 100%;
+        }
+
+        .main
+        {
+            justify-content: center;
+            padding: 0.8em;
+            display: flex;
+            background-color: aqua;
+            order: 1;
+            flex-basis: 100%;
+        }
+
+       div
+       {
+        display: flex;
+         flex-wrap: wrap;
+       }
+
+       .aside
+       {
+          display: flex;
+          flex-flow: row;
+       }
+
+       .aside-1
+        {
+          flex-basis: 50%;
+          flex: 1 0px;
+          padding: 0.8em;
+          background-color: yellow;
+          order: 2;
+          justify-content: center;
+          display: flex;
+        }
+
+       .aside-2
+        {
+          flex-basis: 50%;
+          flex: 1 0px;
+          padding: 0.8em;
+          background-color: pink;
+          order: 3;
+          justify-content: center;
+          display: flex;
+        }
+
+       .footer
+        {
+          padding: 0.8em;
+          display: flex;
+          background-color: lightgreen;
+          order: 4;
+          justify-content: center;
+          flex-basis: 100%;
+        }   
+    }
+    
+    @media screen and (min-width: 800px)
+    {
+    .header
+    {
+        background-color: palevioletred;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .main
+    {
+        order: 2;
+        display: flex;
+        flex-flow: row;
+        flex-basis: 50%;
+        flex-grow: 3;
+        background-color: cyan;
+        align-items: center;
+    }
+
+    div
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aside
+    {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .aside-1
+    {
+        order: 1;
+        display: flex;
+        flex-basis: 25%;
+        background-color: yellow;
+        justify-content: center;
+    }
+
+    .aside-2
+    {
+        order: 3;
+        display: flex;
+        flex-basis: 25%;
+        background-color: pink;
+        justify-content: center;
+    }
+
+    .footer
+    {
+        order: 4;
+        display: flex;
+        background-color: lightgreen;
+        flex-basis: 100%;
+        justify-content: center;
+    }   
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">Header</div>
+        <div class="main">
+           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+        </div> 
+         <div class="aside aside-1">Aside 1</div>
+         <div class="aside aside-2">Aside 2</div>
+         <div class="footer">Footer</div>
+        </div>
+        
+</body>
+</html>

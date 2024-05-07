@@ -20,12 +20,27 @@
             display: flex;
             border: solid red 2px;
             border-radius: 2px;
-            align-items: end;
+            position: absolute;
+            right: 0;
+            bottom: 60;
         }
 
         label
         {
             flex-basis: 10%;
+        }
+
+        li
+        {
+            display: flex;
+            flex-direction: row;
+            margin: 0.5em;
+        }
+
+        ul
+        {
+            display: flex;
+            flex-direction: column;
         }
         @media screen and (min-width: 1px) and (max-width: 400px)
         {
@@ -47,7 +62,7 @@
             }
         }
 
-        @media screen  and (min-width: 400px) and (max-width: 700)
+        @media screen and (min-width: 400px) and (max-width: 700)
         {
             input
             {

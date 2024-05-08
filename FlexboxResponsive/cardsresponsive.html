@@ -7,7 +7,9 @@
     <style>
         img
         {
-            box-shadow: 2px 2px 2px 2px red;
+            box-shadow: 3px 3px red;
+            margin: 10px;
+            flex: 1 100%;
         }
 
         body
@@ -15,18 +17,84 @@
             background-color: lightgreen;
         }
 
+        .wrapper
+        {
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 10px;
+            flex-direction: column-reverse;
+        }
+
         @media screen and (min-width: 1px) and (max-width: 450px)
         {
             .wrapper
             {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+            }
+
+            .first .second
+            {
+                flex: 1 0%;
+            }
+
+            img
+            {
+                max-width: 75%;
+                max-height: 200px;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .first
+            {
+                order: 3;
+            }
+
+            .second
+            {
+                order: 2;
+            }
+
+            .third
+            {
+                order: 1;
             }
         }
 
         @media screen and (min-width: 450px) and (max-width: 900px)
         {
-            
+
+            .wrapper
+            {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .first .second
+            {
+                flex-flow: row;
+            }
+            .first
+            {
+                display: flex;
+                order: 1;
+                flex-basis: 25%;
+            }
+
+            .second
+            {
+                display: flex;
+                order: 2;
+                flex-basis: 25%;
+            }
+
+            .third
+            {
+                display: flex;
+                order: 3;
+            }
         }
 
         @media screen and (min-width: 900px)
@@ -37,9 +105,9 @@
 </head>
 <body>
     <div class="wrapper">
-        <img class="first" src="foto1s.png">
-        <img class="second" src="foto2s.png">
-        <img class="third" src="foto3s.png">
+        <img class="first" src="/FlexboxResponsive/foto1.jpg">
+        <img class="second" src="/FlexboxResponsive/foto2.jpg">
+        <img class="third" src="/FlexboxResponsive/foto3.jpg">
     </div>
         
 </body>

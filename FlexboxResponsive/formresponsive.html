@@ -13,6 +13,18 @@
         label
         {
             color: black;
+            display: flex;
+            flex-basis: 15%;
+            display: inline-flex;
+            flex-wrap: nowrap;
+        }
+
+        input
+        {
+            display: flex;
+            justify-content: flex-end;
+            flex-basis: auto;
+            margin: 0.5em;
         }
 
         button
@@ -20,14 +32,7 @@
             display: flex;
             border: solid red 2px;
             border-radius: 2px;
-            position: absolute;
-            right: 0;
-            bottom: 60;
-        }
-
-        label
-        {
-            flex-basis: 10%;
+            margin-left: auto;
         }
 
         li
@@ -44,21 +49,10 @@
         }
         @media screen and (min-width: 1px) and (max-width: 400px)
         {
-            label
-            {
-                display: flex;
-            }
             input
             {
-                justify-content: flex-end;
                 display: flex;
                 flex: 1;
-            }
-
-            .form-row
-            {
-                display: flex;
-                justify-content: space-between;
             }
         }
 
@@ -66,7 +60,6 @@
         {
             input
             {
-                justify-content: flex-end;
                 display: flex;
                 flex: 2;
             }
@@ -78,7 +71,6 @@
             {
                 display: flex;
                 flex: 3;
-                justify-content: flex-end;
             }
         }
 
@@ -88,7 +80,6 @@
             {
                 display: flex;
                 flex: 4;
-                justify-content: flex-end;
             }   
         }
 
@@ -110,7 +101,7 @@
         <input type="text" id="name">
          </li>
          <li class="form-row">
-        <label for="cityborn">City-born : </label>
+        <label for="cityborn">City-born:</label>
         <input type="text" id="cityborn">
          </li>
          <li class="form-row">

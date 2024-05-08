@@ -4,7 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        img
+        {
+            box-shadow: 2px 2px 2px 2px red;
+        }
+
+        body
+        {
+            background-color: lightgreen;
+        }
+
+        @media screen and (min-width: 1px) and (max-width: 450px)
+        {
+            .wrapper
+            {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 900px)
+        {
+            
+        }
+
+        @media screen and (min-width: 900px)
+        {
+            
+        }
+    </style>
 </head>
 <body>
+    <div class="wrapper">
+        <img class="first" src="foto1s.png">
+        <img class="second" src="foto2s.png">
+        <img class="third" src="foto3s.png">
+    </div>
+        
 </body>
 </html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .footer
+        {
+            display: flex;
+            order: 3;
+            box-shadow: 3px 3px black;
+            background-color: lightgreen;
+        }
+
+        .aside-2
+        {
+            display: flex;
+            order: 1;
+            box-shadow: 3px 3px black;
+            background-color:firebrick;
+        }
+
+        .aside-3
+        {
+            display: flex;
+            order: 2;
+            box-shadow: 3px 3px black;
+        }
+
+        .aside-1
+        {
+            display: flex;
+            box-shadow: 3px 3px black;
+            border: solid yellow 10px;
+            height: 20em;
+        }
+
+        .main
+        {
+            display: flex;
+            box-shadow: 3px 3px black;
+            background-color: lightblue;
+        }
+
+        .header
+        {
+            display: flex;
+            box-shadow: 3px 3px black;
+            background-color: lightpink;
+        }
+
+        .wrapper
+        {
+            display: flex;
+            flex-direction: column-reverse;
+            box-shadow: 3px 3px black;
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            flex: 1 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">Beginning</div>
+        <div class="main">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+        </div>
+        <img src="/FlexboxResponsive/foto3.jpg" class="aside aside-1">
+        <div class="aside aside-2">Aside section 1</div>
+        <div class="aside aside-3">Aside section 2</div>
+        <div class="footer">This is the end.</div>
+    </div>
+        
+</body>
+</html>

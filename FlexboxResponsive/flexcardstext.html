@@ -11,6 +11,7 @@
             order: 3;
             box-shadow: 3px 3px black;
             background-color: lightgreen;
+            justify-content: center;
         }
 
         .aside-2
@@ -19,6 +20,7 @@
             order: 1;
             box-shadow: 3px 3px black;
             background-color:firebrick;
+            justify-content: center;
         }
 
         .aside-3
@@ -26,6 +28,7 @@
             display: flex;
             order: 2;
             box-shadow: 3px 3px black;
+            justify-content: center;
         }
 
         .aside-1
@@ -33,7 +36,6 @@
             display: flex;
             box-shadow: 3px 3px black;
             border: solid yellow 10px;
-            height: 20em;
         }
 
         .main
@@ -41,6 +43,7 @@
             display: flex;
             box-shadow: 3px 3px black;
             background-color: lightblue;
+            justify-content: center;
         }
 
         .header
@@ -48,6 +51,7 @@
             display: flex;
             box-shadow: 3px 3px black;
             background-color: lightpink;
+            justify-content: center;
         }
 
         .wrapper
@@ -55,10 +59,77 @@
             display: flex;
             flex-direction: column-reverse;
             box-shadow: 3px 3px black;
-            max-width: 50%;
+            max-width: 100%;
+            max-height: 100%;
+            height: max-content;
             margin-left: auto;
             margin-right: auto;
             flex: 1 0px;
+            font:16px bold,Courier,monospace;
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 800px) 
+        {
+            body
+            {
+                height: 100%;
+            }
+            .wrapper
+            {
+                box-shadow: 3px 3px black;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                height: 100%;
+                width: 100%;
+            }
+
+            .header
+            {
+                justify-content: center;
+                max-width: 100%;
+            }
+
+            .main
+            {
+                justify-content: center;
+                max-width: 100%;
+            }
+
+            .aside-1
+            {
+                max-width: fit-content;
+                max-width: 30%;
+                height: fit-content;
+            }
+
+            .aside-2
+            {
+                justify-content: center;
+                max-width: fit-content;
+                max-width: 30%;
+            }
+
+            .aside-3
+            {
+                justify-content: center;
+                max-width: fit-content;
+                max-width: 30%;
+            }
+
+            .footer
+            {
+                justify-content: center;
+                max-width: 100%;
+            }
+
+            .aside-1 .aside-2 .aside-3
+            {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: stretch;
+                flex: 0 1 auto;
+            }
         }
     </style>
 </head>

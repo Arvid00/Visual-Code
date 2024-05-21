@@ -1,0 +1,96 @@
+body
+{
+    background-color: rgb(35, 85, 154);
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.header
+{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.about
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 3px 3px rgb(59, 195, 123);
+}
+
+.contact
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 3px 3px rgb(59, 195, 123);
+}
+
+.home
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 3px 3px rgb(59, 195, 123);
+}
+
+.service
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 3px 3px rgb(59, 195, 123);
+}
+
+.main
+{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.aside
+{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.aside > div
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.analytics
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 4px 4px rgb(212, 17, 31);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.marketing
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 4px 4px rgb(212, 17, 31);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.development
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 4px 4px rgb(212, 17, 31);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.support
+{
+    background-color: rgb(221,221,221);
+    box-shadow: 4px 4px rgb(212, 17, 31);
+    justify-content: center;
+    align-items: flex-start;
+}

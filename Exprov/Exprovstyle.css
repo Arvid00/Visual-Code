@@ -11,40 +11,75 @@ body
     flex-wrap:wrap;
 }
 
+.header > a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+    min-height: 2em;
+}
+
 .header
 {
     display: flex;
     flex-basis: 100%;
+    justify-content: space-between;
+    padding: 1em;
 }
 
 .about
 {
     background-color: rgb(221,221,221);
     box-shadow: 3px 3px rgb(59, 195, 123);
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .contact
 {
     background-color: rgb(221,221,221);
     box-shadow: 3px 3px rgb(59, 195, 123);
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .home
 {
     background-color: rgb(221,221,221);
     box-shadow: 3px 3px rgb(59, 195, 123);
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .service
 {
     background-color: rgb(221,221,221);
     box-shadow: 3px 3px rgb(59, 195, 123);
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .main
 {
     display: flex;
     flex-basis: 100%;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 3px 3px rgb(9, 178, 35);
+}
+
+.text
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button
+{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border-radius: 5em;
+    padding: 0.5em;
 }
 
 .aside
@@ -52,6 +87,7 @@ body
     display: flex;
     flex-basis: 100%;
     justify-content: space-between;
+    padding: 1em;
 }
 
 .aside > div
@@ -61,36 +97,49 @@ body
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    flex-basis: 20%;
+    background-color: rgb(221,221,221);
+    box-shadow: 4px 4px rgb(212, 17, 31);
 }
 
 .analytics
 {
-    background-color: rgb(221,221,221);
-    box-shadow: 4px 4px rgb(212, 17, 31);
     justify-content: center;
     align-items: flex-start;
 }
 
 .marketing
 {
-    background-color: rgb(221,221,221);
-    box-shadow: 4px 4px rgb(212, 17, 31);
     justify-content: center;
     align-items: flex-start;
 }
 
 .development
 {
-    background-color: rgb(221,221,221);
-    box-shadow: 4px 4px rgb(212, 17, 31);
     justify-content: center;
     align-items: flex-start;
 }
 
 .support
 {
-    background-color: rgb(221,221,221);
-    box-shadow: 4px 4px rgb(212, 17, 31);
     justify-content: center;
     align-items: flex-start;
+}
+
+form
+{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+fieldset
+{
+    background-color: rgb(221, 221, 221);
+}
+
+legend
+{
+    background-color: rgb(144, 238, 144);
+    color: rgb(84, 91, 135);
 }

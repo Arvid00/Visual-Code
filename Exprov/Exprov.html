@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="Exprovstyle.css">
+    <script src="https://kit.fontawesome.com/3a99bb2772.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -22,45 +23,66 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 <br>
                 <br>
-                <button href="">Read more</button>
+                <button class="read">Read more</button>
             </div>
         </div>
         <div class="aside">
             <div class="analytics">
+                <i class="fa-solid fa-chart-column fa-lg" style="color: #1554c1;"></i>
                 <h2>Analytics</h2>
                 Lorem ipsum, consectetur elit.
             </div>
             <div class="marketing">
+                <i class="fa-solid fa-bullhorn fa-lg" style="color: #000000;"></i>
                 <h2>Marketing</h2>
                 Lorem ipsum, dolor elit.
             </div>
             <div class="development">
+                <i class="fa-solid fa-server fa-lg" style="color: #f23636;"></i>
                 <h2>Development</h2>
                 Lorem ipsum consectetur.
             </div>
             <div class="support">
+                <i class="fa-regular fa-address-card fa-lg" style="color: #27f12b;"></i>
                 <h2>Support</h2>
                 Lorem ipsum. Beatae, quia?
             </div>
         </div>
+        <div class="foot">
         <form>
             <fieldset>
                 <legend>Gender*</legend>
+                <p>
                 <label for="GenderMale">Male</label>
                 <input type="radio" name="Gender" required>
+                </p>
+                <p>
                 <label for="GenderFemale">Female</label>
                 <input type="radio" name="Gender" required>
-            </fieldset>
-            <fieldset>
-                <legend>Programming Skill</legend>
-                <label for="Skill">Java</label>
-                <input type="checkbox" name="Skill">
-                <label for="Skill">C++</label>
-                <input type="checkbox" name="Skill" checked>
-                <label for="Skill">C#</label>
-                <input type="checkbox" name="Skill">
+                </p>
             </fieldset>
         </form>
+        <form>
+            <fieldset>
+                <legend>Programming Skill</legend>
+                <p>
+                <label for="Skill">Java</label>
+                <input type="checkbox" name="Skill">
+                </p>
+                <p>
+                <label for="Skill">C++</label>
+                <input type="checkbox" name="Skill" checked>
+                </p>
+                <p>
+                <label for="Skill">C#</label>
+                <input type="checkbox" name="Skill">
+                </p>
+            </fieldset>
+            <div class="btnsend">
+                <button>Send</button>
+            </div>
+        </form>
+        </div>
     </div>
 </body>
 </html>

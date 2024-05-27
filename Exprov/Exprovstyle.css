@@ -1,14 +1,6 @@
 body
 {
     background-color: rgb(35, 85, 154);
-    height: 100%;
-    width: 100%;
-}
-
-.wrapper
-{
-    display: flex;
-    flex-wrap:wrap;
 }
 
 .header > a
@@ -63,7 +55,7 @@ body
 .main
 {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 99%;
     background-color: rgb(221, 221, 221);
     box-shadow: 3px 3px rgb(9, 178, 35);
 }
@@ -74,11 +66,11 @@ body
     margin-right: auto;
 }
 
-button
+.read
 {
     color: white;
     background-color: rgb(51, 51, 51);
-    border-radius: 5em;
+    border-radius: 20px;
     padding: 0.5em;
 }
 
@@ -100,6 +92,7 @@ button
     flex-basis: 20%;
     background-color: rgb(221,221,221);
     box-shadow: 4px 4px rgb(212, 17, 31);
+    padding: 0.75em;
 }
 
 .analytics
@@ -126,20 +119,30 @@ button
     align-items: flex-start;
 }
 
-form
+.foot
 {
     display: flex;
-    flex-basis: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-fieldset
+form
 {
+    max-width: 10em;
     background-color: rgb(221, 221, 221);
+    margin: 2em;
+    color: rgb(10,4,130);
+    padding: 1em;
 }
 
 legend
 {
     background-color: rgb(144, 238, 144);
     color: rgb(84, 91, 135);
+}
+
+.btnsend
+{
+    text-align: center;
 }

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/3a99bb2772.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="prov3.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
-            <div>
+            <div class="header-small">
             <a class="home" href="">HOME</a>
             <a class="news" href="">News</a>
             </div>
@@ -18,9 +20,9 @@
             <a class="contact" href="">CONTACT</a>
         </div>
         <div class="main">
-            <img class="image" src="/Exprov/Exprov_bild.jpg" alt="Bild">
+            <img class="image" src="pic1.jpg" alt="Bild">
             <div class="text">
-                <h2>Your business on the webb</h2>
+                <h2>Your Business On the Web</h2>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 <br>
                 <br>
@@ -29,22 +31,22 @@
         </div>
         <div class="aside">
             <div class="analytics">
-                <i class="fa-solid fa-chart-column fa-lg" style="color: #1554c1;"></i>
+                <i class="fa-solid fa-chart-pie fa-rotate-90 fa-lg" style="color: #ffff00;"></i>
                 <h2>Analytics</h2>
                 Lorem ipsum, consectetur elit.
             </div>
             <div class="marketing">
-                <i class="fa-solid fa-bullhorn fa-lg" style="color: #000000;"></i>
+                <i class="fa-solid fa-rectangle-ad fa-rotate-270 fa-lg" style="color: #ff0000;"></i>
                 <h2>Marketing</h2>
                 Lorem ipsum, dolor elit.
             </div>
             <div class="development">
-                <i class="fa-solid fa-server fa-lg" style="color: #f23636;"></i>
+                <i class="fa-regular fa-window-maximize fa-lg" style="color: #0000ff;"></i>
                 <h2>Development</h2>
                 Lorem ipsum consectetur.
             </div>
             <div class="support">
-                <i class="fa-regular fa-address-card fa-lg" style="color: #27f12b;"></i>
+                <i class="fa-solid fa-phone-flip fa-lg" style="color: #00ff00;"></i>
                 <h2>Support</h2>
                 Lorem ipsum. Beatae, quia?
             </div>
@@ -52,30 +54,39 @@
         <div class="foot">
         <form>
             <fieldset>
-                <legend>Gender*</legend>
+                <legend>Your name</legend>
                 <p>
-                <label for="GenderMale">Male</label>
-                <input type="radio" name="Gender" required>
+                <label for="Firstname">First name:*</label>
+                <input type="text" name="First" required>
                 </p>
                 <p>
-                <label for="GenderFemale">Female</label>
-                <input type="radio" name="Gender" required>
+                <label for="Lastname">Last name:*</label>
+                <input type="text" name="Last" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Nationality</legend>
+                <p>
+                    <label class="nationality" >Choose a nationality: </label>
+                    <select name="option">
+                        <option value="">NED</option>
+                    </select>
                 </p>
             </fieldset>
         </form>
         <form>
             <fieldset>
-                <legend>Programming Skill</legend>
+                <legend>Skills</legend>
                 <p>
-                <label for="Skill">Java</label>
+                <label for="Skill">Electrian</label>
                 <input type="checkbox" name="Skill">
                 </p>
                 <p>
-                <label for="Skill">C++</label>
+                <label for="Skill">Baker</label>
                 <input type="checkbox" name="Skill" checked>
                 </p>
                 <p>
-                <label for="Skill">C#</label>
+                <label for="Skill">Carpenter</label>
                 <input type="checkbox" name="Skill">
                 </p>
             </fieldset>
